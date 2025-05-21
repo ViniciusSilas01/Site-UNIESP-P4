@@ -6,7 +6,6 @@ const Inicial = () => {
     <Container className="py-4">
 
         {/* Aqui será o carousel do banner */}
-
         <Card className="mb-4 shadow-sm">
             <Card.Body>
             <p>
@@ -21,6 +20,7 @@ const Inicial = () => {
             </Card.Body>
         </Card>
 
+        { /* primeira linha com 3 colunas (para os cards ficarem lado a lado) */}
         <Row className="g-4">
 
             <Col md={4}>
@@ -82,9 +82,12 @@ const Inicial = () => {
                     </Card.Body>
                 </Card>            
             </Col>
+        
         </Row>
 
+        { /* segunda linha com 2 colunas (para os cards ficarem lado a lado) */}
         <Row className="g-4 mt-4">
+            
             {/* Card 1 */}
             <Col md={6}>
                 <Card className="h-100 shadow-sm">
