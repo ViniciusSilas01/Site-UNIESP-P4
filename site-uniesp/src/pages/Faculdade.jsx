@@ -1,29 +1,24 @@
 import React from 'react'
 import { Container, Card, Row, Col } from 'react-bootstrap'
-import BannerAd from '../components/BannerAd'
 
 const Inicial = () => {
   return (
     <Container className="py-4">
-
-        {/* Aqui está o carousel do banner */}
-        <BannerAd />
+        
+        <h2 className="mb-4">A Faculdade</h2>
 
         <Card className="mb-4 shadow-sm">
             <Card.Body>
             <p>
-            A Faculdade UNIESP é uma instituição comprometida em fornecer educação de qualidade, com foco no desenvolvimento profissional e pessoal.
+            A Faculdade UNIESP é uma instituição comprometida com a excelência no ensino e no desenvolvimento de habilidades para o mercado de trabalho.
             </p>
             <p>
-            Contamos com uma equipe de professores qualificados, uma infraestrutura moderna e uma metodologia de ensino que valoriza o aprendizado prático.
-            </p>
-            <p>
-            A seguir, conheça mais sobre as áreas e as oportunidades que a Faculdade UNIESP oferece para você.
+            Nossos cursos são projetados para formar profissionais capacitados e conscientes de seu papel na sociedade.
             </p>
             </Card.Body>
         </Card>
 
-        { /* Primeira linha com 3 colunas (para os cards ficarem lado a lado) */}
+        { /* Linha com 3 colunas (para os cards ficarem lado a lado) */}
         <Row className="g-4">
 
             <Col md={4}>
@@ -84,39 +79,6 @@ const Inicial = () => {
                         </Card.Text>
                     </Card.Body>
                 </Card>            
-            </Col>
-        
-        </Row>
-
-        { /* Segunda linha com 2 colunas (para os cards ficarem lado a lado) */}
-        <Row className="g-4 mt-4">
-            
-            {/* Card 1 */}
-            <Col md={6}>
-                <Card className="h-100 shadow-sm">
-                    <Card.Body className="text-center">
-                        <Card.Title>
-                            Parcerias com Empresas
-                        </Card.Title>
-                        <Card.Text>
-                            A UNIESP mantém parcerias com diversas empresas, permitindo que nossos alunos tenham acesso a oportunidades de estágio e emprego logo após a graduação.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
- 
-            {/* Card 2 */}
-            <Col md={6}>
-                <Card className="h-100 shadow-sm">
-                    <Card.Body className="text-center">
-                        <Card.Title>
-                            Compromisso com a Educação
-                        </Card.Title>
-                        <Card.Text>
-                            A UNIESP se dedica a oferecer uma educação acessível e de qualidade, acreditando que o conhecimento transforma vidas.
-                        </Card.Text>
-                     </Card.Body>
-                </Card>
             </Col>
 
         </Row>
