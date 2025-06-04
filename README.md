@@ -11,8 +11,8 @@ Este repositório contém o desenvolvimento de um site fictício da universidade
 - NPM.
 - Vite.
 - JSON Server.
-- Axios
-- Bootstrap
+- Axios.
+- Bootstrap.
 
 ## 🧩 Funcionalidades
 - Layout responsivo adaptado para diferentes dispositivos.
