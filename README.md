@@ -1,4 +1,4 @@
-# Projeto - Site UNIESP
+## Projeto - Site UNIESP
 Este repositório contém o desenvolvimento de um site fictício da universidade UNIESP, criado como parte da disciplina Tecnologia para Front-End Avançado - P4. O projeto tem como objetivo aplicar conceitos modernos de desenvolvimento web, com foco em responsividade, acessibilidade e boas práticas de codificação.
 
 ## 🚀 Tecnologias Utilizadas
